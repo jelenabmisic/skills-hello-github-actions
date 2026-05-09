@@ -16,3 +16,10 @@ jobs:
       - run: echo "-------------------------------------"
       - run: echo "Triggered by ${{ github.event_name }}"
       - run: echo "-------------------------------------"
+  welcome2:
+    name: Post welcome comment 2
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "-------------------------------------22"
+      - run: echo "Triggered by ${{ github.event_name }}"
+      - run: echo "-------------------------------------22"
